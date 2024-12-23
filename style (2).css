@@ -1,0 +1,53 @@
+body{
+  background-image: url('https://i.postimg.cc/2SyXfKkK/download-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+.heading{
+  color: #bfd200;
+  text-align: center;
+  text-decoration: underline;
+}
+.card{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 7px #edc531 outset;
+  padding: 20px;
+  background: #ff8800;
+  text-align: center;
+  align-items: center;
+}
+img{
+  width: 300px;
+  border: 5px #926c15 groove;
+}
+.details{
+  font-size: 20px;
+  color: #202020;
+}
+.contact{
+  text-align: center;
+  color: #f5dc91;
+  font-size: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.bar-code{
+  border: 2px solid #001d3d;
+}
+a{
+  color: #003566;
+}
+a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+img:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  transition: transform 0.3s ease;
+}
